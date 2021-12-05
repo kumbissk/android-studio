@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E88282"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/fragment_portfolio_scene"
+    tools:context=".Portfolio" >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes Realisations"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#fff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="427dp"
+            android:layout_height="608dp"
+            android:layout_marginTop="-170dp"
+            android:src="@drawable/realisation1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-350dp"
+            android:src="@drawable/realisation2" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mon premier projet sur la formation Simplon. L’objectif etant la mise en oeuvre des langages HTML/CSS, tout en respectant un cahier des charges bien elabore."
+            android:layout_marginBottom="150dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>
